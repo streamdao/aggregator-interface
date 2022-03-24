@@ -1,4 +1,4 @@
-# Stream Interface
+# Stream Aggregator Interface
 Notice! Under Construction
 
 ## Deployment
