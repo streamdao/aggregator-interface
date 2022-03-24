@@ -1,0 +1,58 @@
+.modal-tokens {
+  padding: 1.5rem 0;
+
+  > .bd {
+    margin-top: 15px;
+    max-height: 420px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      background-color: transparent;
+      width: 2px;
+    }
+
+    &::-webkit-scrollbar {
+      background-color: transparent;
+      height: 4px;
+    }
+    // &::-webkit-scrollbar-track {
+    //   background-color: transparent;
+    // }
+    &::-webkit-scrollbar-thumb {
+      background-color: #090f29;
+      border-radius: 4px;
+    }
+  }
+
+  .token-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    border: 1px solid transparent;
+    margin-bottom: 8px;
+    border-radius: 8px;
+
+    &:hover {
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .token {
+      display: flex;
+      align-items: center;
+
+      .token-symbol {
+        color: #fff;
+        font-weight: 700;
+      }
+
+      .token-name {
+        color: #617089;
+      }
+    }
+
+    .token-balance {
+      color: #fff;
+    }
+  }
+}
